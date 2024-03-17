@@ -33,7 +33,7 @@ function Cart() {
     </div>
 ));
   return (
-    <div className='sm:mt-[7vw] mt-[20vw] ml-[10vw]'>
+    <div className='sm:mt-[7vw] mt-[25vw] ml-[5vw]'>
      {productCart.length === 0 ? 
       <h2 className='sm:text-[3vw] text-[4vw] sm:top-0 top-[20vw] font-semibold flex items-center justify-center'>This cart is empty</h2>
          :
