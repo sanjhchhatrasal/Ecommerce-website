@@ -1,0 +1,7 @@
+.active .res-nav-icon{
+  display: none;
+  position: absolute;
+}
+.active .close-icon{
+  display: inline-block;
+}
