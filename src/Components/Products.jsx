@@ -43,7 +43,7 @@ function Products() {
     ));
     
   return (
-    <div className='relative sm:top-[8vw] top-[25vw] mx-[5vw] ml-[10vw] sm:h-[180vh] mb-14'>
+    <div className='relative sm:top-[8vw] top-[25vw] mx-[5vw] ml-[10vw] sm:h-[180vh] sm:mb-14 mb-[30vw]'>
       {/* <h1 className='font-semibold text-[3vw]'>Products</h1> */}
       <div className='col-md-3 w-full sm:gap-10 gap-5 flex flex-wrap'>
           {cards} 
