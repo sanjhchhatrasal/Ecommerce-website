@@ -2,8 +2,8 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='h-[100vh]  relative flex items-center bg-slate-100'>
-      <div className='sm:w-[40vw] h-[60vh] sm:ml-[30vw] ml-[15vw] px-[10vw] shadow-lg rounded-lg bg-gray-300 relative flex flex-col items-center justify-center gap-4 '>
+    <div className='sm:h-[100vh] h-[85vh] sm:top-0 top-[4vw]  relative flex items-center bg-slate-100'>
+      <div className='sm:w-[40vw] h-[60vh] sm:ml-[30vw] ml-[5vw] px-[10vw] shadow-lg rounded-lg bg-gray-300 relative flex flex-col items-center justify-center gap-4 '>
         <input type="text" placeholder='Name' className='px-[3vw] py-[1vw] rounded-lg'/>
         <input type="email" placeholder='Email' className='px-[3vw] py-[1vw] rounded-lg' />
         <textarea cols="35" rows="5"></textarea>

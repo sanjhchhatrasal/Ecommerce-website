@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='sm:h-[100vh] h-[80vh] relative flex items-center bg-slate-100'>
+    <div className='sm:h-[100vh] h-[80vh] relative flex items-center bg-slate-100 sm:top-0 top-[5vw]'>
     <div className='flex sm:w-[60vw] w-[80vw] sm:flex-row flex-col sm:ml-[20vw] ml-[5vw] px-[10vw] shadow-lg relative'>
     <div className="card sm:h-[50vh] h-[30vh] sm:w-[80%]">
         <h1 className='sm:text-[2.5vw] text-[5vw] font-semibold mb-[2vw]'><span className='text-yellow-700 sm:text-[2.8vw] text-[5.5vw]'>Sanjh</span>Store</h1>
