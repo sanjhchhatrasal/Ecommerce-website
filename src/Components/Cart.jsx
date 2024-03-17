@@ -15,7 +15,7 @@ function Cart() {
 
   const cards = productCart.map(product  => (
     <div className='border-2 border-gray-300 rounded-xl'>
-         <Card className='flex items-center justify-between gap-3 sm:w-[50rem] sm:h-[12rem] w-[30rem] h-[10rem] px-10'>
+         <Card className='flex items-center justify-between gap-3 sm:w-[50rem] sm:h-[12rem] w-[20rem] h-[7rem] px-10'>
             <div className="text-center h-[10vw] w-[10vw]">
             <Card.Img variant="top" src={product.image} style={{width: "100%", height: "100%", borderRadius: "50%", objectFit: "cover"}}/>
 
@@ -33,9 +33,9 @@ function Cart() {
     </div>
 ));
   return (
-    <div className='mt-[7vw] ml-[10vw]'>
+    <div className='sm:mt-[7vw] mt-[20vw] ml-[10vw]'>
      {productCart.length === 0 ? 
-      <h2 className='text-[3vw] font-semibold flex items-center justify-center'>This cart is empty</h2>
+      <h2 className='sm:text-[3vw] text-[4vw] sm:top-0 top-[20vw] font-semibold flex items-center justify-center'>This cart is empty</h2>
          :
       <div className='flex flex-wrap gap-3'>
       {cards}
