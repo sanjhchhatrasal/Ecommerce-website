@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { addProduct } from '../Features/Cart/CartSlice';
+
 
 function Products() {
   const dispatch = useDispatch([]);
     const [products, setProducts] = useState([])
+
 
     useEffect(() => {
         fetch("https://api.pujakaitem.com/api/products")
@@ -21,7 +23,7 @@ function Products() {
 
     const cards = products.map(product  => (
         <div className='border-2 w-fit'>
-             <Card style={{ width: '18rem', height: "20rem"}} className='text-center'>
+             <Card style={{ width: '18rem', height: "20rem"}} className='text-center hover:scale-[1.1] transition-all'>
                 <div className="text-center w-[200px] h-[150px] object-cover mb-10">
                 <Card.Img variant="top" src={product.image} style={{width: "100%", height: "100%"}} className='my-5 mx-10'/>
 
@@ -29,7 +31,7 @@ function Products() {
                 <Card.Body>
                     <Card.Title className='mx-3'>{product.title}</Card.Title>
                     <Card.Text>
-                    {product.name}
+                    {product.category}
                     </Card.Text>  
                     <Card.Text>
                     INR : {product.price}
@@ -43,11 +45,10 @@ function Products() {
     ));
     
   return (
-    <div className='relative sm:top-[8vw] top-[25vw] mx-[5vw] ml-[10vw] sm:h-[180vh] sm:mb-14 mb-[30vw]'>
-      {/* <h1 className='font-semibold text-[3vw]'>Products</h1> */}
+    <div className='relative sm:top-[8vw] top-[25vw] mx-[5vw] ml-[10vw] sm:h-[180vh] sm:mb-14 mb-[30vw] '>
       <div className='col-md-3 w-full sm:gap-10 gap-5 flex flex-wrap'>
           {cards} 
-      {/*  {JSON.stringify(products)} */}
+          
       </div>
     </div>
   )

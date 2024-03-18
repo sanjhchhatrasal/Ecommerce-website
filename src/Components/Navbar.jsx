@@ -46,16 +46,16 @@ function Navbar() {
         </div>
         <div className={`hidden sm:ml-6 sm:block`}>
           <div className="flex space-x-4 ml-[10vw]">
-            <NavLink to="/" className="text-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-semibold text-[1.21vw]" aria-current="page">Home</NavLink>
-             <NavLink to="/products" className="text-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium text-[1.21vw]">Products</NavLink>
-             <NavLink to="/about" className="text-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium text-[1.21vw]">About</NavLink>
-             <NavLink to="/contact" className="text-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium text-[1.21vw]">Contact</NavLink>
+            <NavLink to="/" className={({isActive}) => `${isActive ? "text-yellow-800 text-[1.25vw]" : "text-gray-700" }  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-semibold text-[1.21vw]`} aria-current="page">Home</NavLink>
+             <NavLink to="/products" className={({isActive}) => `${isActive ? "text-yellow-800 text-[1.25vw]" : "text-gray-700" }  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-semibold text-[1.21vw]`} >Products</NavLink>
+             <NavLink to="/about" className={({isActive}) => `${isActive ? "text-yellow-800 text-[1.25vw]" : "text-gray-700" }  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-semibold text-[1.21vw]`} >About</NavLink>
+             <NavLink to="/contact" className={({isActive}) => `${isActive ? "text-yellow-800 text-[1.25vw]" : "text-gray-700" }  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-semibold text-[1.21vw]`} >Contact</NavLink>
           </div>
         </div>
       </div>
       
       <div className='flex items-center justify-center mr-[1vw]'>
-          <NavLink to="/cart" className="flex items-center text-gray-600 hover:text-yellow-500">
+          <NavLink to="/cart" className={({isActive}) => `${isActive ? "text-yellow-700" : "text-gray-600" } flex items-center  hover:text-yellow-500`}>
              <IoBagHandleOutline className='sm:text-[1.55vw] text-[3.5vw]'/> <h1 className='sm:text-[1.25vw] text-[3.3vw]'>:{cartProducts ? cartProducts.length : 0}</h1>
              </NavLink>
              </div>

@@ -10,7 +10,7 @@ function Home() {
         <button className='sm:py-[1vw] py-[1.5vw] sm:px-[1.3vw] px-[2vw] bg-yellow-700 hover:bg-yellow-600 text-white font-semibold rounded-lg sm:mt-[3vw] mt-[5vw]'>Shop Now</button>
       </div>
             <div className='sm:h-[35vh] h-[25vh] sm:w-[50%] left-[6vw] bg-yellow-800 relative sm:top-3'>
-            <img className='sm:h-[30vh] h-[22vh] left-[-4vw] top-[1vw] absolute object-cover' src="https://imgs.search.brave.com/0h4LrepoVrOaH_VPnzSFkw6_E6D-wsXA3zW68VepuLM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9z/aG9wcGluZy1kYXkt/aW50ZXJuYXRpb25h/bC1naXJsZnJpZW5k/cy13b21lbi1tYWxs/XzExNTctNDY4MDMu/anBnP3NpemU9NjI2/JmV4dD1qcGc" alt="" />
+            <img className='sm:h-[30vh] h-[22vh] left-[-4vw] top-[1vw] absolute object-cover hover:scale-[1.1] transition-all' src="https://imgs.search.brave.com/0h4LrepoVrOaH_VPnzSFkw6_E6D-wsXA3zW68VepuLM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9z/aG9wcGluZy1kYXkt/aW50ZXJuYXRpb25h/bC1naXJsZnJpZW5k/cy13b21lbi1tYWxs/XzExNTctNDY4MDMu/anBnP3NpemU9NjI2/JmV4dD1qcGc" alt="" />
             </div>
     </div>
     </div>
