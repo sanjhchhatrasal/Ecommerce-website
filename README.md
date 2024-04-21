@@ -1,6 +1,4 @@
-Here's a draft for your GitHub README file for the Ecommerce-website repository:
 
----
 
 # Ecommerce Website 🛒
 
@@ -67,5 +65,3 @@ Contributions to this Ecommerce website project are welcome! If you have suggest
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/sanjhchhatrasal/Ecommerce-website/blob/main/LICENSE) file for details.
 
 ---
-
-Feel free to customize the content, add more sections, or include relevant images as needed for your project's README!
