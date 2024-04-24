@@ -2,7 +2,7 @@
 
 # Ecommerce Website 🛒
 
-![Ecommerce Website](https://github.com/sanjhchhatrasal/Ecommerce-website/blob/main/public/images/ecommerce-website.png)
+![Ecommerce Website]
 
 This repository contains the source code for an Ecommerce website built using React, Redux Toolkit, Tailwind CSS, and other technologies.
 
