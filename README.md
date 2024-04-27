@@ -4,7 +4,7 @@
 
 This repository contains the source code for an Ecommerce website built using React, Redux Toolkit, Tailwind CSS, and other technologies.
 
-👉 Live Demo: <a href='https://app.netlify.com/sites/sanjhecommerce/overview'>Website Demo</a>
+👉 Live Demo: <a href='https://sanjhecommerce.netlify.app/'>Website Demo</a>
 
 ## Features ✨
 
